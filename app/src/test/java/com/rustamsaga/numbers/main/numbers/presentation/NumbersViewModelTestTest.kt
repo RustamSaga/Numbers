@@ -1,7 +1,14 @@
 package com.rustamsaga.numbers.main.numbers.presentation
 
 import android.view.View
+import com.rustamsaga.numbers.main.numbers.domain.NumberFact
+import com.rustamsaga.numbers.main.numbers.domain.NumberUiMapper
+import com.rustamsaga.numbers.main.numbers.domain.NumbersInteractor
+import com.rustamsaga.numbers.main.numbers.domain.NumbersResult
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.runBlocking
 import org.junit.Assert.*
+import org.junit.Before
 import org.junit.Test
 
 class NumbersViewModelTest : BaseTest() {
