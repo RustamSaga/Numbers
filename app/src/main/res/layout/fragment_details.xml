@@ -4,11 +4,11 @@
     android:id="@+id/detailsTextView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/colorSurface"
-    android:textColor="?attr/colorOnSurface"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
     android:gravity="center_horizontal"
-    android:padding="@dimen/text_padding"
+    android:padding="@dimen/margin_small"
     android:textAppearance="@style/TextAppearance.AppCompat.Title"
-    tools:text="Some details of the numbers">
-
-</TextView>
+    android:textColor="@color/black"
+    tools:text="Some details of the number" />
