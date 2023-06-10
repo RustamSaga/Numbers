@@ -2,7 +2,7 @@ package com.rustamsaga.numbers.main.presentation
 
 import com.rustamsaga.numbers.numbers.presentation.Communication
 
-// TODO what does it do???
+// Позволяет выбрать нужную обертку LiveData
 interface NavigationCommunication {
 
     interface Observe : Communication.Observe<NavigationStrategy>
