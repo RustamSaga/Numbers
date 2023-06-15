@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModel
 import com.rustamsaga.numbers.main.sl.ProvideViewModel
 
-// TODO what does it do???
+
 abstract class BaseFragment<T : ViewModel> : Fragment() {
 
     protected lateinit var viewModel: T
